@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superfly</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        list-style-type: none;
+        border: none;
+        outline: none;
+        resize: none;
+        color: #212121;
+        line-height: 1.7;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      @keyframes cart {
+        0% {
+          left: -10%;
+        }
+        40%,
+        60% {
+          left: 50%;
+        }
+        100% {
+          left: 110%;
+        }
+      }
+
+      @keyframes cube {
+        0%,
+        40% {
+          top: -15%;
+        }
+        60% {
+          top: 40%;
+          left: 52%;
+        }
+        100% {
+          left: 110%;
+          top: 40%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
